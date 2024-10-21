@@ -7,7 +7,6 @@
   actions:
   - action: "gatsby build"
     type: "BUILD"
-    disabled: true
     docker_image_name: "library/node"
     docker_image_tag: "22"
     execute_commands:
@@ -16,3 +15,9 @@
     setup_commands:
     - "npm install -g gatsby-cli"
     shell: "BASH"
+  - action: "Transfer to ftp.server910408.nazwa.pl"
+    type: "FTP"
+    remote_path: "/mksound"
+    login: "server910408_mksound"
+    password: "secure!vKg6Vo7JhyAvNOwSlkwFAQ==.9s4nrE78c+y4s/xuhO9wlQ=="
+    host: "ftp.server910408.nazwa.pl"
