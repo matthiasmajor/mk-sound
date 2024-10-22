@@ -92,7 +92,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-        - name: ftp-action
+      name: ftp-action
   uses: sebastianpopp/ftp-action@v2.0.0
   with:
     # FTP host
