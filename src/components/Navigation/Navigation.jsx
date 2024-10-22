@@ -9,7 +9,7 @@ import {
   StyledSocialIcon,
 } from "./Navigation.styles";
 import facebook from "../../assets/icons/facebook.svg";
-import instagram from "../../assets/icons/instagram.svg";
+import instagram from "../../assets/icons/Instagram.svg";
 import { useThemeContext } from "../../context/ThemeContext";
 import { useEffect } from "react";
 import { keyframes } from "styled-components";

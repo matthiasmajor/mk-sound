@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { StyledIcon } from "../StyledIcon/StyledIcon";
 import facebook from "../../assets/icons/facebook.svg";
-import instagram from "../../assets/icons/instagram.svg";
+import instagram from "../../assets/icons/Instagram.svg";
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
