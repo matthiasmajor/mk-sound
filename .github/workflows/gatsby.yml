@@ -83,12 +83,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      name: ftp-action
-  uses: sebastianpopp/ftp-action@v2.0.0
-  with:
-    # FTP host
-    host: ftp.server910408.nazwa.pl
-    # FTP user
-    user: server910408_mksound
-    # FTP password
-    password: Karaskat321.
+    - name: ftp-action
+      uses: sebastianpopp/ftp-action@v2.0.0
+      with:                                                                          
+          # FTP host
+          host: ftp.server910408.nazwa.pl
+          # FTP user
+          user: server910408_mksound
+          # FTP password
+          password: Karaskat321.
