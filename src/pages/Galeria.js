@@ -1,4 +1,5 @@
 import React from "react";
+import { theme } from "../assets/theme";
 import { styled } from "styled-components";
 import { CornerEffect } from "../components/CornerEffectProvider/CornerEffect";
 import one_photo from "../images/kotwaimages/kotwa_7.jpg";

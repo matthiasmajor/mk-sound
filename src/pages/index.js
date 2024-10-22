@@ -1,4 +1,5 @@
 import * as React from "react";
+import { theme } from "../assets/theme";
 import { useState } from "react";
 import { useRef } from "react";
 import { Link } from "gatsby";
@@ -43,7 +44,7 @@ import sonible from "../images/sonible.png";
 import guitar from "../assets/playing_guitar.json";
 import Lottie from "lottie-react";
 import { ThemeSwitch } from "../components/ThemeSwitch/ThemeSwitch";
-import PostProduction from "./PostProduction";
+import PostProduction from "../components/PostProduction";
 
 export const ContentWrapper = styled.div`
   width: 100%;

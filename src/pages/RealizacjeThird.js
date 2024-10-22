@@ -7,6 +7,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import styled from "styled-components";
+import { theme } from "../assets/theme";
 
 const Wrapper = styled.div`
   margin-top: 100px;
@@ -15,9 +16,9 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
 
-  ${({ theme }) => theme.mq.desktop} {
+  /*  ${({ theme }) => theme.mq.desktop} {
     padding: 0 320px;
-  }
+  } */
 `;
 
 function createData(realizacja, typ, data) {
@@ -33,7 +34,7 @@ const rows = [
   createData("Wirtualna Polska - Wywiad", "Dźwięk na planie", "22.03.23"),
 ];
 
-export default function BasicTable() {
+const RealizacjeThird = () => {
   return (
     <Wrapper>
       <TableContainer component={Paper}>
@@ -64,4 +65,6 @@ export default function BasicTable() {
       </TableContainer>
     </Wrapper>
   );
-}
+};
+
+export default RealizacjeThird;

@@ -10,6 +10,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "../data/data";
 import { useThemeContext } from "../context/ThemeContext";
+import { theme } from "../assets/theme";
 
 export const Wrapper = styled(motion.div)`
   display: flex;

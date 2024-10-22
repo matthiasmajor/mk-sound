@@ -6,6 +6,7 @@ import { HighlightedHeading } from "../components/HighlightedHeading/Highlighted
 import { useLottie } from "lottie-react";
 import kontakt from "../assets/kontakt.json";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { theme } from "../assets/theme";
 
 export const ContentWrapper = styled(motion.div)`
   margin-top: 60px;

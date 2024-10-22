@@ -7,6 +7,7 @@ import dots from "../images/Dots.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import image from "../images/aktualnosci_background.jpg";
+import { theme } from "../assets/theme";
 
 export const Wrapper = styled.div``;
 
