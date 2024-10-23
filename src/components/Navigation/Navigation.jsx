@@ -22,23 +22,17 @@ export const Navigation = () => {
 
   const { color } = useThemeContext();
 
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const stickHeader = () => {
-        if (scroll > 0) {
-          setScrolled(true);
-        } else {
-          setScrolled(false);
-        }
-      };
+  /*  const stickHeader = () => {
+    const scroll = window.scrollY;
 
-      window.addEventListener("scroll", stickHeader);
-
-      return () => {
-        window.removeEventListener("scroll", stickHeader);
-      };
+    if (scroll > 0) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
     }
-  }, []);
+  };
+
+  window.addEventListener("scroll", stickHeader); */
 
   const ToogleNavigation = () => {
     setIsOpen(!isOpen);

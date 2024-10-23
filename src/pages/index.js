@@ -664,7 +664,7 @@ const IndexPage = () => {
 
   return (
     <ContentWrapper id="main">
-      <ThemeSwitch />
+      {/* <ThemeSwitch /> */}
       <HeroSection
         image={image}
         initial={{ opacity: 0, y: 100 }}
