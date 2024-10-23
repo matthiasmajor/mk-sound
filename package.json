@@ -21,6 +21,7 @@
     "@emotion/styled": "^11.13.0",
     "@formspree/react": "^2.5.0",
     "@mui/material": "^6.1.2",
+    "@parcel/watcher": "^2.4.1",
     "@stripe/stripe-js": "^1.54.2",
     "@table-library/react-table-library": "^4.1.7",
     "babel-plugin-styled-components": "^2.1.4",
