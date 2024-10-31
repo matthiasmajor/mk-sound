@@ -7,6 +7,7 @@ import { useLottie } from "lottie-react";
 import kontakt from "../assets/kontakt.json";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { theme } from "../assets/theme";
+import { BsTelephone } from "react-icons/bs";
 
 export const ContentWrapper = styled(motion.div)`
   margin-top: 60px;
@@ -87,10 +88,12 @@ const Kontakt = () => {
               display: "flex",
               alignItems: "center",
               fontWeight: "bold",
-              marginLeft: "-8px",
+              marginLeft: "0px",
+              gap: "10px",
             }}
           >
-            <img src={mobile} alt="mobile" />
+            <BsTelephone style={{ fontSize: "1.2rem" }} />
+
             <p style={{ fontWeight: "bold" }}>501 169 710</p>
           </div>
           <ContactFormWrapper>

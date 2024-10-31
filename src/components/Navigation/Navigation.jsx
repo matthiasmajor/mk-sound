@@ -15,6 +15,8 @@ import { useEffect } from "react";
 import { keyframes } from "styled-components";
 import cinek_logo from "../../assets/logo_cinek_transparent.png";
 import styled from "styled-components";
+import { CiFacebook } from "react-icons/ci";
+import { CiInstagram } from "react-icons/ci";
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -98,10 +100,10 @@ export const Navigation = () => {
             as="a"
             href="https://www.facebook.com/profile.php?id=100057583803806"
           >
-            <img src={facebook} alt="facebook" />
+            <CiFacebook />
           </StyledSocialIcon>
           <StyledSocialIcon>
-            <img src={instagram} alt="instagram" />
+            <CiInstagram />
           </StyledSocialIcon>
         </div>
       </Wrapper>

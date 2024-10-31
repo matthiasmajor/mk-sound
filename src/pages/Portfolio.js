@@ -119,7 +119,7 @@ const Portfolio = () => {
           Nazywam sie <span>Marcin Kotwa.</span>
         </p>
         <p>
-          Praca z dzwiękiem to moja pasja i sposób na życie. Pozwól by moje
+          Praca z dźwiękiem to moja pasja i sposób na życie. Pozwól by moje
           doświadczenie pomogło zrealizować nasze wspólne cele.{" "}
         </p>
         <ImageWrapper>{View}</ImageWrapper>

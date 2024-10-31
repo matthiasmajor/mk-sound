@@ -4,6 +4,8 @@ import { StyledIcon } from "../StyledIcon/StyledIcon";
 import facebook from "../../assets/icons/facebook.svg";
 import instagram from "../../assets/icons/Instagram.svg";
 import styled from "styled-components";
+import { CiFacebook } from "react-icons/ci";
+import { CiInstagram } from "react-icons/ci";
 
 export const Wrapper = styled.div`
   width: 100%;
@@ -69,7 +71,7 @@ export const Footer = () => {
           <Link to="/Portfolio">Portfolio</Link>
           <Link to="/Galeria">Galeria</Link>
           <Link to="/Aktualnosci">Aktualności</Link>
-          <Link to="/Realizacje">Realizacje</Link>
+          <Link to="/RealizacjeThird">Realizacje</Link>
 
           <Link to="/Kontakt">Kontakt</Link>
         </div>
@@ -80,7 +82,7 @@ export const Footer = () => {
             target="_blank"
             isDark
           >
-            <img src={facebook} alt="facebookLogo" />
+            <CiFacebook />
           </StyledIcon>
           <StyledIcon
             as="a"
@@ -88,7 +90,7 @@ export const Footer = () => {
             target="_blank"
             isDark
           >
-            <img src={instagram} alt="instagramLogo" />
+            <CiInstagram />
           </StyledIcon>
         </div>
       </StyledFooter>

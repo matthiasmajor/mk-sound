@@ -674,7 +674,7 @@ const IndexPage = () => {
         <div>
           <p>MK SOUND - POST PRODUKCJA | DŹWIĘK NA PLANIE</p>
           <h1>
-            Jakość audio którą, pokochasz.
+            Jakość audio, którą pokochasz.
             {/* {Letters.map((letter, index) => (
               <motion.h1
                 variants={fadeInAnimationVariants}
@@ -714,15 +714,15 @@ const IndexPage = () => {
           distance="40px"
           isMobile
         >
-          <h2>Czym wyróżnia się moja oferta, spośrod innych na rynku?</h2>
+          <h2>Czym wyróżnia się moja oferta spośrod innych na rynku?</h2>
           <p>
-            Na rynku audio działam juz przeszło 20 lat, zajmuje się dźwiękiem na
+            Na rynku audio działam juz przeszło 20 lat, zajmuję się dźwiękiem na
             planie, post produkcją reklam i programów telewizyjnych. Moja
-            działalność koncentruje się na kompleksowej obsłudze dźwiękowej
+            działalność koncentruję się na kompleksowej obsłudze dźwiękowej
             produkcji filmowych i telewizyjnych. Specjalizuję się w
             postprodukcji dźwięku, gdzie dbam o najwyższą jakość ścieżek
             dźwiękowych, zajmując się m.in. miksowaniem, masteringiem oraz
-            synchronizacją dźwięku z obrazem. Ponadto, oferuję profesjonalną
+            synchronizacją dźwięku z obrazem. Ponadto oferuję profesjonalną
             realizację dźwięku na planie, zapewniając idealne nagranie dialogów
             i efektów dźwiękowych bezpośrednio podczas kręcenia scen. Moje
             doświadczenie i zaangażowanie gwarantują doskonałe rezultaty, które
@@ -826,8 +826,8 @@ const IndexPage = () => {
         </Container> */}
         <TitleWrapper>
           <HighlightedHeading isLeft width="28">
-            Szum, trzaski, przester? Zle nagrany materiał audio nie jest
-            przeszkodą by uzyskać profesjonalną jakość dzwięku.
+            Szum, trzaski, przester? Źle nagrany materiał audio nie jest
+            przeszkodą by uzyskać profesjonalną jakość dźwięku.
           </HighlightedHeading>
         </TitleWrapper>
         <ImageWrapper>

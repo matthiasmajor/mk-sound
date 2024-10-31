@@ -78,13 +78,13 @@ export const experiencesData = [
         show: "John&Mary",
       },
       {
-        show: "Pułkownik Ptak",
+        show: "Pułkownik ptak",
       },
       {
-        show: "Edukacja Rity",
+        show: "Edukacja rity",
       },
       {
-        show: "Widok z Mostu",
+        show: "Widok z mostu",
       },
       {
         show: "Sztuka",
@@ -102,7 +102,22 @@ export const experiencesData = [
         show: "Nas troje",
       },
       {
-        show: "Nas troje",
+        show: "Frankie&Johny",
+      },
+      {
+        show: "Odchodzić",
+      },
+      {
+        show: "Przychodzi mężczyzna do kobiety",
+      },
+      {
+        show: "Przy drzwiach zamkniętych",
+      },
+      {
+        show: "Sprawozdanie dla akademii",
+      },
+      {
+        show: "Kolonia karna",
       },
     ],
   },
@@ -127,7 +142,7 @@ export const experiencesData = [
   },
   {
     id: "4",
-    title: "Teatr wytwórnia",
+    title: "Teatr Wytwórnia",
     realizacje: "Realizacja dźwięku przy spektaklach:",
     caption: "",
     date: "2006-08",
@@ -208,13 +223,13 @@ export const experiencesData = [
         show: "Oresteja",
       },
       {
-        show: "Natan Mędrzec",
+        show: "Natan mędrzec",
       },
       {
-        show: "Księżniczka na Opak Wywrócona",
+        show: "Księżniczka na opak wywrócona",
       },
       {
-        show: "Hedda Gabler",
+        show: "Hedda gabler",
       },
       {
         show: "Aktor",
@@ -226,13 +241,13 @@ export const experiencesData = [
         show: "Tango",
       },
       {
-        show: "Baron Munchausen",
+        show: "Baron Münchhausen",
       },
       {
         show: "Fredraszki",
       },
       {
-        show: "Msza za Miasto Arras",
+        show: "Msza za miasto arras",
       },
       {
         show: "Garderobiany",
@@ -247,16 +262,25 @@ export const experiencesData = [
         show: "Mewa",
       },
       {
-        show: "Marat Sade",
+        show: "Marat/Sade",
       },
       {
         show: "Komediant",
       },
       {
-        show: "Skóra Węża",
+        show: "Skóra węża",
       },
       {
-        show: "Kotka na Gorącym Blaszanym Dachu",
+        show: "Kotka na gorącym blaszanym dachu",
+      },
+      {
+        show: "Matka Joanna od aniołów",
+      },
+      {
+        show: "Gra snów",
+      },
+      {
+        show: "Idiota",
       },
     ],
   },

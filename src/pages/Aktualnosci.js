@@ -144,7 +144,7 @@ const Aktualnosci = ({
                 <Image src={item.image.url} />
                 <img src={dots} alt="dots" />
                 <a style={{ fontWeight: "bold" }} href={item.link}>
-                  Zobacz Materiał
+                  Zobacz materiał
                 </a>
               </Content>
             ))}

@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
   left: 0;
   background-color: white;
   align-items: center;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   padding: 50px;
   overflow-y: hidden;
 
@@ -118,6 +118,8 @@ export const StyledSocialIcon = styled(StyledIcon)`
   height: 50px;
   padding: 0;
   margin: 0 20px;
+  color: black;
+  font-size: 1.5rem;
   img {
     width: 100%;
   }
